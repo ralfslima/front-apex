@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <input type="number" id="hora">
+
+        <select id="cidade">
+            <option value="0">Selecione uma cidade</option>
+            <option value="1">Tóquio</option>
+            <option value="2">Lisboa</option>
+            <option value="3">Cidade do México</option>
+        </select>
+
+        <input type="button" value="Verificar" onclick="acao()">
+    </form>
+
+    <script>
+        function acao(){
+            // Obter a hora e a cidade
+            let hora = document.querySelector('#hora').value
+            let cidade = document.querySelector('#cidade').value
+
+            alert(hora + ' ' + cidade)
+        }
+    </script>
+    
+</body>
+</html>
