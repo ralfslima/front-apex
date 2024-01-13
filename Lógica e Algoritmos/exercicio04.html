@@ -23,10 +23,32 @@
     <script>
         function acao(){
             // Obter a hora e a cidade
-            let hora = document.querySelector('#hora').value
+            let hora = parseInt(document.querySelector('#hora').value)
             let cidade = document.querySelector('#cidade').value
 
-            alert(hora + ' ' + cidade)
+            // Adicionar fuso horário
+            if(cidade == '1'){
+                hora += 12
+            }else if(cidade == '2'){
+                hora += 3
+            }else{
+                hora -= 3
+            }
+
+            // Verifica se a hora é superior a 23
+            if(hora > 23){
+                hora -= 24
+            }
+
+            // Retorno
+            if(cidade === '1'){
+                alert('Em Tóquio é '+hora)
+            }else if(cidade === '1'){
+                alert('Em Lisboa é '+hora)
+            }else {
+                alert('Em Cidade do México é '+hora)
+            }
+
         }
     </script>
     
