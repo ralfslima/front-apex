@@ -1,0 +1,53 @@
+1ª Peça três notas e retorne a média.
+
+
+2ª Peça dois números, se forem iguais realize a soma deles, caso contrário realize a multiplicação.
+
+
+3ª Peça um número, retorne se é um número positivo ou negativo.
+
+
+4ª Crie um sistema para conversão de horas. Informe a hora atual e a cidade que deseja saber o horário, exemplos:
+    a) 14 - Tóquio, deverá retornar 2, pois Tóquio são +12 horas
+
+    b) 17 - Lisboa, deverá retornar 20, pois Lisboa são +3 horas
+
+    c) 19 - Cidade do México, deverá retornar 16, pois Cidade do México são -3 horas
+
+Defina pelo menos três cidades ao redor do mundo para elaborar esta atividade.
+
+
+5ª Precisamos descobrir qual o tipo do triângulo, peça três valores, sendo eles:
+    - Lado Direito
+    - Lado Esquerdo
+    - Lado Inferior
+
+Dependendo dos valores informados, retorne o tipo de triângulo, que pode ser:
+    - Isósceles: Dois lados possuem a mesma medida e um lado diferente das demais 
+    - Escaleno: Os três lados possuem medidas distintas
+    - Equilatero: Os três lados possuem as mesmas medidas
+
+
+6ª Utilizando como base o mês de janeiro de 2024, peça uma data entre 1 a 31, retorne o dia da semana, exemplos:
+    a) 1: Deverá retornar segunda-feira
+
+    b) 12: Deverá retornar sexta-feira
+
+    c) 32: Deverá retornar que o número informado não existe
+
+
+7ª Peça três números, retorne o maior informado.
+
+
+8ª Peça três números distintos, retorne de maneira crescente, exemplos:
+    a) Se informados: 7, 4, 9, deverá retornar: 4, 7, 9
+
+    b) Se informados: 1, 8, 2, deverá retornar: 1, 2, 8
+
+    c) Se informados: 1, 1, 2, deverá retornar: Informe números distintos.
+
+
+9ª Uma loja precisa efetuar um desconto em suas vendas. Será pedido o valor total da compra e a forma de pagamento, será disponibilizado um desconto de 10% se:
+    a) O valor total da compra for de pelo menos R$500,00
+
+    b) O pagamento precisa ser à vista

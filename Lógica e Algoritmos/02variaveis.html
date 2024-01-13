@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variáveis</title>
+</head>
+
+<body>
+
+    <input type="text" placeholder="Informe seu nome" class="nome">
+    <input type="number" placeholder="Informe sua idade" class="idade">
+    
+    <button onclick="acao()">Enviar</button>
+
+    <p></p>
+
+    <!-- JS -->
+    <script>
+
+        function acao(){
+
+            // Capturar os inputs
+            var nome = document.querySelector('.nome')
+            var idade = document.querySelector('.idade')
+
+            // Exibir a informação contida nos inputs
+            //document.querySelector('p').innerText = 'Bom dia ' + nome.value + ' você tem ' + idade.value + ' anos.'
+            document.querySelector('p').innerText = `Bom dia ${nome.value} você tem ${idade.value} anos`  
+
+            // Limpar os inputs
+            nome.value = ''
+            idade.value = ''
+
+            // Deixar o cursor no input nome
+            nome.focus();
+        }
+        
+        // var nome = 'Alice'
+        // var nome = prompt('Informe seu nome')
+        
+
+    </script>
+
+</body>
+</html>
