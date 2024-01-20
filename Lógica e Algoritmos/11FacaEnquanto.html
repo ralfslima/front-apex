@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11 - Faça Enquanto</title>
+</head>
+<body>
+    
+    <!-- DIV -->
+    <div></div>
+
+    <!-- SCRIPT -->
+    <script>
+
+        // Obter um número
+        var numero = parseInt(prompt('Informe um número'))
+
+        // Obter o elemento DIV
+        var elemento = document.querySelector('div')
+
+        // Condicional
+        if(numero < 0){
+            elemento.innerHTML = '<p>Informe apenas números positivos</p>'
+        }else{
+            var indice = 0
+
+            do{
+                elemento.innerHTML += `<p>${indice}</p>`
+                indice++
+            }while(indice <= numero)
+        }
+
+    </script>
+
+</body>
+</html>
