@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16 - JSON Vetor</title>
+</head>
+<body>
+
+    <table></table>
+    
+    <script>
+
+        // Vetor de pessoas
+        let pessoas = [
+            {'nome':'Ariane',   'idade':31},
+            {'nome':'Cristian', 'idade':22},
+            {'nome':'Daniela',  'idade':27},
+            {'nome':'Ellen',    'idade':19},
+            {'nome':'Marcelo',  'idade':42}
+        ]
+
+        // Obter o elemento de tabela
+        let tabela = document.querySelector('table')
+
+        // Laço de repetição
+        for(let i=0; i<pessoas.length; i++){
+            // Criar uma nova linha
+            let linha = tabela.insertRow(-1)
+
+            // Criar colunas
+            let colunaNome = linha.insertCell(0)
+            let colunaIdade = linha.insertCell(1)
+
+            // Informações das colunas
+            colunaNome.innerText = pessoas[i].nome
+            colunaIdade.innerText = pessoas[i].idade
+        }
+
+    </script>
+
+    <style>
+        table{
+            width: 200px;
+            margin: 0 auto;
+        }
+
+        tr{
+            background-color: #eee;
+        }
+
+        tr:nth-child(even){
+            background-color: #00f;
+            color: #fff;
+        }
+
+        td{
+            border: solid 1px #000;
+        }
+    </style>
+    
+</body>
+</html>
