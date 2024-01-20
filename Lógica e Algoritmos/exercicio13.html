@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        // Variável lógica
+        let continuar = true
+
+        // Nome com maior quantidade de caracteres
+        let maiorNome = ''
+
+        // Contador de nomes
+        let contador = 0
+
+        // Laço
+        while(continuar){
+            // Obter o nome
+            let nome = prompt('Informe um nome ou sair para finalizar')
+
+            // Verificar se é o maior nome informado
+            if(nome.length > maiorNome.length){
+                maiorNome = nome
+            }else if(nome.length == maiorNome.length && nome != 'sair'){
+                maiorNome += ', '+nome 
+            }
+
+            // Verificar se continua no loop
+            if(nome.toLocaleLowerCase() == 'sair'){
+                continuar = false
+            }else{
+                // Adicionar +1 no contador
+                contador++
+            }
+        }
+
+        document.write('<p>Foram informados: '+contador+' nomes</p>')
+        document.write('<p>O maior nome é: '+maiorNome+'</p>')
+
+    </script>
+
+</body>
+</html>
