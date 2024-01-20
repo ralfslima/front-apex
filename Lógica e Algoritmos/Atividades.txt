@@ -51,3 +51,29 @@ Dependendo dos valores informados, retorne o tipo de triângulo, que pode ser:
     a) O valor total da compra for de pelo menos R$500,00
 
     b) O pagamento precisa ser à vista
+
+10ª Serão pedidos dois números, retorne o valor entre eles, exemplos:
+    a) 1 e 9, retorne: 1 2 3 4 5 6 7 8 9
+
+    b) 6 e 10, retorne: 6 7 8 9 10
+
+    c) 15 e 5, retorne: 5 6 7 8 9 10 11 12 13 14 15
+
+11º Criar um sistema para realizar o fatorial, peça apenas um número, exemplo:
+    a) Se informar o valor 3: 6
+
+    b) Se informar o valor 5: 120
+
+    Exemplo de cálculo:
+    5 * 4 = 20
+    20 * 3 = 60
+    60 * 2 = 120
+    120 * 1  = 120
+
+12º Peça um valor, em seguida retorne a tabuada do número informado
+
+13º Utilizando o comando prompt, peça diversos nomes, enquanto não
+for informado o termo "sair", continue perguntando um nome.
+
+Quando informado o termo "sair", retorne a quantidade de nomes informados
+e o nome com o maior número de caracteres
