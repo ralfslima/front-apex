@@ -7,37 +7,44 @@
 </head>
 <body>
 
+    <!-- HTML -->
+    <input type="number">
+    <button onclick="fatorial()">Realizar fatorial</button>
+
     <!-- SCRIPT -->
     <script>
         
-        // Variável contendo o número que será fatorado
-        let numero = parseInt(prompt('Informe um número'))
+       // Função
+       function fatorial(){
+            // Variável contendo o número que será fatorado
+            let numero = parseInt(document.querySelector('input').value)
 
-        // Obter o antecessor
-        let antecessor = numero - 1
+            // Obter o antecessor
+            let antecessor = numero - 1
 
-        // Realizar cálculo
-        let calculo = numero * antecessor;
-
-        // Exibir estrutura
-        console.log(calculo)
-
-        // Laço de repetição
-        while(antecessor > 1){
-
-            // Subtrair o antecessor
-            antecessor--
-
-            // Cálculo
-            calculo = calculo * antecessor
+            // Realizar cálculo
+            let calculo = numero * antecessor;
 
             // Exibir estrutura
             console.log(calculo)
 
-        }
+            // Laço de repetição
+            while(antecessor > 1){
 
-        // Exibir o fatorial
-        document.write(calculo)
+                // Subtrair o antecessor
+                antecessor--
+
+                // Cálculo
+                calculo = calculo * antecessor
+
+                // Exibir estrutura
+                console.log(calculo)
+
+            }
+
+            // Exibir o fatorial
+            document.write(calculo)
+       }
 
     </script>
     
