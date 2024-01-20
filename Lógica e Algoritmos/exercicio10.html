@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- HTML -->
+    <input type="text" id="n1">
+    <input type="text" id="n2">
+    <button onclick="acao()">Enviar</button>
+    
+    <!-- SCRIPT -->
+    <script>
+        function acao(){
+            // Obter números
+            let n1 = parseInt(document.querySelector('#n1').value)
+            let n2 = parseInt(document.querySelector('#n2').value)
+
+            // Verificar o ponto inicial
+            if(n1 < n2){
+                while(n1 <= n2){
+                    document.write(n1 + ' ')
+                    n1++
+                }
+            }else{
+                while(n2 <= n1){
+                    document.write(n2 + ' ')
+                    n2++
+                }
+            }
+        }
+    </script>
+</body>
+</html>

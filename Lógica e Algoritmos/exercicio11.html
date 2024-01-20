@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- SCRIPT -->
+    <script>
+        
+        // Variável contendo o número que será fatorado
+        let numero = parseInt(prompt('Informe um número'))
+
+        // Obter o antecessor
+        let antecessor = numero - 1
+
+        // Realizar cálculo
+        let calculo = numero * antecessor;
+
+        // Exibir estrutura
+        console.log(calculo)
+
+        // Laço de repetição
+        while(antecessor > 1){
+
+            // Subtrair o antecessor
+            antecessor--
+
+            // Cálculo
+            calculo = calculo * antecessor
+
+            // Exibir estrutura
+            console.log(calculo)
+
+        }
+
+        // Exibir o fatorial
+        document.write(calculo)
+
+    </script>
+    
+</body>
+</html>
