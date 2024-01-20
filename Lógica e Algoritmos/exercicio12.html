@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number">
+    <button onclick="tabuada()">Calcular</button>
+
+    <script>
+        function tabuada(){
+
+            // Obter número digitado
+            let numero = parseInt(document.querySelector('input').value)
+
+            // Tabuada
+            let indice = 1
+
+            while(indice < 11){
+                document.write(`<p>${numero} X ${indice} = ${numero*indice}</p>`)
+                indice++
+            }
+
+        }
+    </script>
+</body>
+</html>
