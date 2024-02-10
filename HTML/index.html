@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício - Apex</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- CSS ANIMATE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="site/OwlCarousel2-2.3-2.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="site/OwlCarousel2-2.3-2.4/dist/assets/owl.theme.default.min.css">
+
+</head>
+<body>
+    
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Viaja Brasil</h1>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="#">Pacotes</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <div class="banner">
+        <h1 class="animate__animated animate__backInLeft">Lugares incríveis</h1>
+        <h2 class="animate__animated animate__backInLeft animate__delay-1s">Memórias inesquecíveis</h2>
+    </div>
+
+    <!-- Principal -->
+    <main>
+
+        <!-- Pacotes -->
+        <section class="pacotes">
+            <h1>Pacotes em destaque</h1>
+
+            <div class="owl-carousel owl-theme carrosselPacotes">
+                <div>
+                    <img src="destino1.jpeg">
+                    <p>Blumenau</p>
+                </div>
+                
+                <div>
+                    <img src="destino2.webp">
+                    <p>Florianópolis</p>
+                </div>
+                
+                <div>
+                    <img src="destino3.webp">
+                    <p>São Paulo</p>
+                </div>
+                
+                <div>
+                    <img src="destino4.jpeg">
+                    <p>Rio de Janeiro</p>
+                </div>
+                
+                <div>
+                    <img src="destino5.webp">
+                    <p>Porto Alegre</p>
+                </div>
+                
+                <div>
+                    <img src="destino6.webp">
+                    <p>Curitiba</p>
+                </div>
+                
+                <div>
+                    <img src="destino7.webp">
+                    <p>Belo Horizonte</p>
+                </div>
+                
+                <div>
+                    <img src="destino8.jpeg">
+                    <p>Goiânia</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre -->
+        <section class="sobre">
+            <img src="destino4.jpeg">
+
+            <div>
+                <h1>Sobre a Viaja Brasil</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ad eum cumque enim quia cum sunt porro dolor ea temporibus necessitatibus possimus tenetur, impedit voluptas mollitia! Magni ad repudiandae ducimus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ad eum cumque enim quia cum sunt porro dolor ea temporibus necessitatibus possimus tenetur, impedit voluptas mollitia! Magni ad repudiandae ducimus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ad eum cumque enim quia cum sunt porro dolor ea temporibus necessitatibus possimus tenetur, impedit voluptas mollitia! Magni ad repudiandae ducimus!</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Desenvolvido por: Ralf Lima | 2024</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="site/OwlCarousel2-2.3-2.4/dist/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".carrosselPacotes").owlCarousel({
+                items:4,
+                loop:true,
+                nav: true,
+                margin: 30,
+                dots: false,
+                autoplay: true,
+                autoplayTimeout: 2000
+            });
+        });
+    </script>
+
+</body>
+</html>
