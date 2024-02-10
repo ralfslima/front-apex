@@ -2,6 +2,6 @@ Desenvolver um site de tema livre.
 
 1º Deverá possuir pelo menos três páginas
 
-2º Deverá utilizar a esturutra HTML e CSS
+2º Deverá utilizar a estrurutra HTML e CSS
 
 3º Implementar o Owl Carousel
