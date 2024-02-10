@@ -1,0 +1,161 @@
+/* ESTILO GLOBAL */
+* {
+  margin: 0;
+  font-family: Verdana;
+}
+
+/* BODY */
+body {
+  background-image: url(banner.jpeg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #383840;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #38384039;
+}
+
+header p {
+  font-size: 36px;
+  margin: 30px;
+  color: #fff;
+}
+
+header a{
+  display: inline-block;
+  color: #fff;
+  margin-top: 40px;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+header a:hover{
+  color: #383840;
+}
+
+/* BANNER */
+.banner{
+  margin-left: 60%;
+  margin-right: 5%;
+  margin-top: 200px;
+}
+
+.banner h1{
+  font-size: 45px;
+  line-height: 60px;
+}
+
+.banner p{
+  text-align: justify;
+  margin-top: 50px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* MAIN */
+main{
+  margin-top: 610px;
+  background-color: #fff;
+}
+
+/* SEGMENTOS */
+.segmentos ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.segmentos li{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  transition: background-color 0.3s;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.segmentos li:hover{
+  background-color: #c5c5c5;
+}
+
+.segmentos i{
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+/* SOBRE */
+.sobre{
+  display: flex;
+}
+
+.sobre img{
+  width: 40%;
+  padding: 5%;
+}
+
+.sobre div{
+  padding: 5%;
+}
+
+.sobre h1{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.sobre p{
+  margin-top: 20px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+/* FOOTER */
+footer{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 30px;
+}
+
+footer i{
+  margin-left: 20px;
+}
+
+/* CLIENTES */
+.clientes img{
+  width: 300px;
+  height: 300px;
+}
+
+/* CONTATO */
+.contato{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contato iframe{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 700px;
+  height: 450px;
+}
+
+.contato form{
+  width: 700px;
+  margin-top: 30px;
+}
+
+input[type="text"], textarea{
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+textarea{
+  height: 260px;
+  resize: none;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto HTML - Advocacia</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="OwlCarousel2-2.3-2.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3-2.4/dist/assets/owl.theme.default.min.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <p>Site - Advocacia</p>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="clientes.html">Clientes</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+ 
+    <!-- BANNER -->
+    <div class="banner">
+        <h1 class="animate__animated animate__backInRight">Eles confiam em nós!</h1>
+        <p class="animate__animated animate__backInRight animate__delay-1s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio itaque illo similique debitis quibusdam blanditiis ad assumenda possimus quaerat, a reprehenderit facere facilis quia deleniti consectetur aliquam, laudantium incidunt. Dicta.</p>
+    </div>
+
+    <!-- PRINCIPAL -->
+    <main>
+
+        <!-- Clientes -->
+        <section class="clientes owl-carousel owl-theme">
+            <div><img src="cliente1.png"></div>
+            <div><img src="cliente2.png"></div>
+            <div><img src="cliente3.png"></div>
+            <div><img src="cliente4.png"></div>
+            <div><img src="cliente5.webp"></div>
+            <div><img src="cliente6.png"></div>
+            <div><img src="cliente7.png"></div>
+            <div><img src="cliente8.png"></div>
+        </section>
+       
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>Desenvolvido por Ralf - 2024</p>
+
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </footer>
+
+    <!-- OWL CAROUSEL -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="OwlCarousel2-2.3-2.4/dist/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                items:4,
+                loop:true,
+                nav: true,
+                margin: 30,
+                dots: false,
+                autoplay: true,
+                autoplayTimeout: 2000
+            });
+        });
+    </script>
+</body>
+</html>

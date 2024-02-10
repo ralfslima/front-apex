@@ -3,16 +3,52 @@ let vetor = []
 
 // Cadastro
 function cadastrar(){
-    
-    // Criar objeto JSON
-    let pessoa = {
-        'nome'  :document.querySelector('#nome').value,
-        'cidade':document.querySelector('#cidade').value
+
+    // Obter o nome e a cidade
+    let nome = document.querySelector('#nome')
+    let cidade = document.querySelector('#cidade')
+
+    // Validação
+    if(nome.value == ''){
+        alert('Informe um nome!')
+    }else if(cidade.value == ''){
+        alert('Informe uma cidade!')
+    }else{
+
+        // Criar objeto JSON
+        let pessoa = {
+            'nome'  :nome.value,
+            'cidade':cidade.value
+        }
+
+        // Limpar os campos
+        nome.value = ''
+        cidade.value = ''
+
+        // Cursor
+        nome.focus()
+
+        // Adicionar o objeto no vetor
+        vetor.push(pessoa)
+
+        // Função para selecionar os registros
+        selecionar()
     }
+}
 
-    // Adicionar o objeto no vetor
-    vetor.push(pessoa)
+// Remover
+function remover(indice){
+    
+    // Remover pessoa do vetor
+    vetor.splice(indice, 1)
 
+    // Função para selecionar os registros
+    selecionar()
+
+}
+
+// Selecionar
+function selecionar(){
     // Obter o elemento tabela
     let tabela = document.querySelector('#tabela')
 
@@ -35,10 +71,4 @@ function cadastrar(){
         colunaCidade.innerText  = vetor[indice].cidade
         colunaRemover.innerHTML = `<button class='btn btn-danger' onclick='remover(${indice})'>Remover</button>`
     }
-
-}
-
-// Remover
-function remover(indice){
-    alert(indice)
 }
