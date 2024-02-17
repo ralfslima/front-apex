@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo's Hotel</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/desktop.css"    media="screen and (min-width:1200px)">
+    <link rel="stylesheet" href="css/tablet.css"     media="screen and (min-width:750px) and (max-width:1199px)">
+    <link rel="stylesheet" href="css/mobile.css"     media="screen and (max-width:749px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+     <!-- OWL CAROUSEL -->
+     <link rel="stylesheet" href="OwlCarousel2-2.3-2.4/dist/assets/owl.carousel.min.css">
+     <link rel="stylesheet" href="OwlCarousel2-2.3-2.4/dist/assets/owl.theme.default.min.css">
+
+</head>
+<body>
+    <!-- ENDEREÇO E CONTATO -->
+    <section class="endereco">
+        <p>Rua: XV de Novembro - 2233 | Blumenau - Santa Catarina</p>
+        <p>Telefone/WhatsApp: (47) 9 9999-9999</p>
+    </section>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <h1>Echo's Hotel</h1>
+
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Conheça o hotel</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <!-- BANNER -->
+    <section class="banner">
+        
+        <div>
+            <h1>Tenha uma experiência formidável!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aut iure soluta quae mollitia consequatur officia ipsa cum ea odit. Architecto, repudiandae quo. Aperiam veritatis obcaecati itaque ea eos quas?</p>
+            <a href="#">Reservar agora!</a>
+        </div>
+
+        <img src="imagens/banner.webp" alt="Banner">
+
+    </section>
+
+    <!-- PRINCIPAL -->
+    <main>
+
+        <!-- SOBRE -->
+        <section class="sobre">
+            <div>
+                <h1>Requinte e sofisticação em Blumenau</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum saepe nisi laudantium illo ullam quis tenetur ducimus quia atque molestiae eos, fugit pariatur, voluptatum modi et quas culpa eligendi dolores.</p>
+                <a href="#">Faça sua reserva</a>
+            </div>
+
+            <img src="imagens/sobre.webp" alt="Sobre">
+        </section>
+
+        <!-- QUARTOS -->
+        <section class="quartos">
+
+            <h1>Conheça nossos quartos</h1>
+
+            <div class="quartoInfo owl-carousel owl-theme">
+                <div>
+                    <img src="imagens/quarto1.webp">
+                    <h2>Single</h2>
+                    <p>R$135,00 a diária</p>
+                </div>
+                
+                <div>
+                    <img src="imagens/quarto2.webp">
+                    <h2>Duplo</h2>
+                    <p>R$165,00 a diária</p>
+                </div>
+                
+                <div>
+                    <img src="imagens/quarto3.webp">
+                    <h2>Luxo</h2>
+                    <p>R$241,00 a diária</p>
+                </div>
+                
+                <div>
+                    <img src="imagens/quarto4.webp">
+                    <h2>Master</h2>
+                    <p>R$300,00 a diária</p>
+                </div>
+            </di
+            v>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Echo's Hotel 2024 | Todos os direitos reservados</p>
+    </footer>
+
+    <!-- OWL CAROUSEL -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="OwlCarousel2-2.3-2.4/dist/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                items:4,
+                loop:true,
+                nav: true,
+                margin: 30,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                responsiveClass:true,
+                responsive:{
+                    0:{
+                        items:1,
+                        dots: true,
+                        
+                    },
+                    600:{
+                        items:4,
+                        dots: false,
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

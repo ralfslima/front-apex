@@ -1,0 +1,164 @@
+/* Endereço e contato */
+.endereco{
+    background-color: #391F14;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+/* Cabecalho */
+header{
+    background-color: #391F14;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: solid 1px #A85432;
+}
+
+header h1{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+/* Navegação */
+nav{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover{
+    background-color: #A85432;
+}
+
+/* Banner */
+.banner{
+    background-color: #391F14;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.banner img{
+    width: 750px;
+}
+
+.banner div{
+    width: 500px;
+    margin-right: 50px;
+}
+
+.banner h1{
+    font-size: 32px;
+}
+
+.banner p{
+    margin-top: 30px;
+    text-align: justify;
+    line-height: 24px;
+}
+
+.banner a{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #A85432;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Principal */
+main{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+/* Sobre */
+.sobre{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.sobre div{
+    width: 500px;
+}
+
+.sobre img{
+    width: 600px;
+}
+
+.sobre h1{
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #A85432;
+}
+
+.sobre p{
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 30px;
+}
+
+.sobre a{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #A85432;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Quartos */
+.quartos{
+    margin-top: 80px;
+}
+
+.quartos h1{
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #A85432;
+}
+
+.quartoInfo img{
+    border: solid 1px #A85432;
+    margin-bottom: 10px;
+}
+
+.quartoInfo{
+    text-align: center;
+}
+
+.quartoInfo h2{
+    color: #A85432;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer{
+    background-color: #391F14;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+footer p{
+    font-size: 12px;
+}
