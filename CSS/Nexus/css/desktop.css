@@ -1,0 +1,55 @@
+/* Cabeçalho */
+header{
+    background-color: #3bacf0;
+    display: flex;
+    justify-content: space-between; /* Alinhamento horizontal */
+    align-items: center; /* Alinhamento vertical */
+    padding: 20px;
+}
+
+header h1{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    border: solid 1px #3bacf0;
+    padding: 15px;
+    transition: border-color 0.5s;
+}
+
+header a:hover{
+    border-color: #ffffff;
+}
+
+/* Banner */
+.banner{
+    background: linear-gradient(to bottom, #0297ed 0%,#78c2ed 100%);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.banner h1{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.banner p{
+    color: #ffffff;
+    margin-top: 30px;
+    text-align: justify;
+    line-height: 24px;
+}
+
+.banner img{
+    width: 500px;
+}
+
+.banner div{
+    width: 500px;
+}
+
