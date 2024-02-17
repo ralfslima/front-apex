@@ -25,3 +25,111 @@ header a{
 header a:hover{
     border-color: #ffffff;
 }
+
+/* Banner */
+.banner{
+    background: linear-gradient(to bottom, #0297ed 0%,#78c2ed 100%);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    flex-direction: column;
+}
+
+.banner h1{
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+}
+
+.banner p{
+    color: #ffffff;
+    margin-top: 30px;
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.banner img{
+    display: none;
+}
+
+.banner div{
+    width: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Características */
+.caracteristicas{
+    margin-top: 50px;
+}
+
+.caracteristicas ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.caracteristicas li{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+}
+
+.caracteristicas i{
+    font-size: 80px;
+    color: #3bacf0;
+    margin-bottom: 20px;
+}
+
+.caracteristicas h1{
+    font-size: 20px;
+    color: #3bacf0;
+    margin-bottom: 20px;
+}
+
+/* Sobre */
+.sobre{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.sobre div{
+    width: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.sobre img{
+    width: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.sobre h1{
+    font-size: 32px;
+}
+
+.sobre p{
+    margin-top: 20px;
+    line-height: 24px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+/* Rodapé */
+footer{
+    background-color: #3bacf0;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+footer p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+}
