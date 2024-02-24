@@ -1,0 +1,137 @@
+/* Topo */
+.topo1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topo1 img{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.topo1 input[type="text"]{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: solid 1px #7cbc0a;
+    border-right: none;
+    padding: 10px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.topo1 input[type="button"]{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    border: solid 1px #7cbc0a;
+    border-left: none;
+    background: linear-gradient(to bottom, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); 
+    color: #fff;
+    font-size: 20px;
+}
+
+.topo1 form{
+    margin-top: 26px;
+    margin-right: 20px;
+}
+
+.topo2{
+    display: flex;
+    justify-content: center;
+    background-color: #7cbc0a;
+    margin-top: 50px;
+}
+
+.topo2 a{
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.topo2 a:hover{
+    background-color: #639610;
+}
+
+/* Banner */
+.banner{
+    height: 700px;
+}
+
+.img_banner_index{
+    background-image: url(../imagens/banners/3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner h1{
+    font-size: 50px;
+    padding-left: 50px;
+    padding-top: 200px;
+}
+
+.banner p{
+    width: 750px;
+    text-align: justify;
+    padding-left: 50px;
+    padding-top: 40px;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+/* Conteúdo principal */
+main{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.produtos img{
+    width: 212px;
+}
+
+.produtos ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.produtos li{
+    text-align: center;
+    border: solid 1px #e8e8e8;
+    margin-left: 10px;
+    padding: 2px;
+    margin-top: 20px;
+    transition: box-shadow 0.3s;
+}
+
+.produtos p:nth-child(2){
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.produtos button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 180px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 8px;
+    border: solid 1px #538004;
+    background: linear-gradient(to bottom, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); 
+}
+
+.produtos li:hover{
+    box-shadow: 0px 0px 10px #bdbdbd;
+}
+
+/* Classe de zoom */
+.zoom {
+    display:inline-block;
+    position: relative;
+}
+    
+.zoom img {
+    display: block;
+}

@@ -1,0 +1,44 @@
+Link do jQuery Zoom: https://www.jacklmoore.com/zoom/
+
+1º Adicione o CSS:
+
+	/* Remover todas as bordas e margens das tags HTML */
+	*{ 
+		border:0; 
+		margin:0; 
+		padding:0; 
+	}
+		
+	/* Classe de zoom */
+	.zoom {
+		display:inline-block;
+		position: relative;
+	}
+		
+	.zoom img {
+		display: block;
+	}
+
+	/* Classe contendo a largura e altura da imagem */
+	.produto img{
+		width: 300px;
+		height: 350px;
+	}
+
+
+2º Estrutura HTML do zoom:
+
+    <span class='produto zoom ex1'>
+         <img src="imagens/feminino/1.webp" alt="">
+	</span>
+    
+
+3º Adicionar o SCRIPT JS
+
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	<script src='zoom-master/jquery.zoom.min.js'></script>
+	<script>
+		$(document).ready(function(){
+			$('.ex1').zoom();
+		});
+	</script>
