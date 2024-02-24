@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width:1200px)">
+    <link rel="stylesheet" href="css/tablet.css"  media="screen and (min-width:601px) and (max-width:1199px)">
+    <link rel="stylesheet" href="css/mobile.css"  media="screen and (max-width:600px)">
+</head>
+<body>
+    <!-- Topo -->
+    <header>
+        <h1>Gerenciador de tarefas</h1>
+
+        <button>Sair do sistema</button>
+    </header>
+
+    <!-- Principal -->
+    <main>
+        
+        <section class="pgGerenciador">
+
+            <!-- Formulário para cadastrar tarefas -->
+            <form>
+                <input type="text"     placeholder="Tarefa">
+                <input type="text"     placeholder="Prazo de entrega">
+                <textarea              placeholder="Descrição da tabela"></textarea>
+                <input type="button"   value="Cadastrar tarefa">
+            </form>
+
+            <!-- Status -->
+            <ul>
+                <li>
+                    <h1>5</h1>
+                    <p>Tarefas não realizadas</p>
+                </li>
+
+                <li>
+                    <h1>2</h1>
+                    <p>Tarefas para hoje</p>
+                </li>
+                
+                <li>
+                    <h1>18</h1>
+                    <p>Tarefas pendentes</p>
+                </li>
+            </ul>
+
+            <!-- Tabela -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Tarefa</th>
+                        <th>Data de entrega</th>
+                        <th>Remover</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Reunião com Lucas</td>
+                        <td>27/02/2024</td>
+                        <td><button>Remover</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Reunião com Lucas</td>
+                        <td>27/02/2024</td>
+                        <td><button>Remover</button></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Reunião com Lucas</td>
+                        <td>27/02/2024</td>
+                        <td><button>Remover</button></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Reunião com Lucas</td>
+                        <td>27/02/2024</td>
+                        <td><button>Remover</button></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Reunião com Lucas</td>
+                        <td>27/02/2024</td>
+                        <td><button>Remover</button></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Reunião com Lucas</td>
+                        <td>27/02/2024</td>
+                        <td><button>Remover</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+    
+
+    </main>
+    
+</body>
+</html>
