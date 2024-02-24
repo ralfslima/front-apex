@@ -81,3 +81,76 @@
     font-size: 20px;
     line-height: 34px;
 }
+
+/* Conteúdo principal */
+main{
+    width: 550px;
+    margin: 0 auto;
+}
+
+.produtos img{
+    width: 256px;
+}
+
+.produtos ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.produtos li{
+    text-align: center;
+    border: solid 1px #e8e8e8;
+    margin-left: 10px;
+    padding: 2px;
+    margin-top: 20px;
+    transition: box-shadow 0.3s;
+}
+
+.produtos p:nth-child(2){
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.produtos button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 180px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 8px;
+    border: solid 1px #538004;
+    background: linear-gradient(to bottom, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); 
+}
+
+.produtos li:hover{
+    box-shadow: 0px 0px 10px #bdbdbd;
+}
+
+.produtos h1{
+    font-size: 26px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Classe de zoom */
+.zoom {
+    display:inline-block;
+    position: relative;
+}
+
+.zoom img {
+    display: block;
+}
+
+/* Rodapé */
+footer{
+    background-color: #7cbc0a;
+    margin-top: 50px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

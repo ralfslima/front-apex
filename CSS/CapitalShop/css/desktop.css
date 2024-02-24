@@ -126,12 +126,28 @@ main{
     box-shadow: 0px 0px 10px #bdbdbd;
 }
 
+.produtos h1{
+    font-size: 26px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
 /* Classe de zoom */
 .zoom {
     display:inline-block;
     position: relative;
 }
-    
+
 .zoom img {
     display: block;
+}
+
+/* Rodapé */
+footer{
+    background-color: #7cbc0a;
+    margin-top: 50px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
