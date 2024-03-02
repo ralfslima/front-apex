@@ -1,0 +1,24 @@
+O quê?
+Trabalhar com estruturas web adaptativas
+para diversas resoluções de tela.
+
+Histórico
+Desenvolvida em 2011
+
+W3C
+Implementou comandos CSSs para elaboração de páginas responsivas
+
+Site oficial do Bootstrap
+www.getbootstrap.com
+
+
+
+
+
+
+
+
+
+
+
+

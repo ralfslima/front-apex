@@ -1,0 +1,9 @@
+.destino{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.destino p{
+    text-align: center;
+    font-weight: bold;
+}

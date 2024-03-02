@@ -1,0 +1,53 @@
+Todos os layouts precisam utilizar Bootstrap e serem responsivos.
+
+1º Crie um sistema que peça três notas e retorne a média e a situação do aluno.
+Os seguntes elementos HTML são obrigatórios:
+    - 1 form
+    - 3 inputs do tipo number
+    - 1 input do tipo button
+    - 2 parágrafos (um para exibir a média e outro a situação)
+
+2º Desenvolva um sistema responsável por realizar uma tabuada.
+Os seguintes elementos HTML são obrigatórios:
+    - 1 form
+    - 1 input do tipo number
+    - 1 input do tipo button
+    - 1 elemento de lista (ul)
+
+3º Implementar um sistema para gerenciar produtos (cadastrar, selecionar, alterar e remover).
+Os seguintes elementos HTML são obrigatórios:
+    - 1 form
+    - 2 inputs do tipo text
+    - 1 input do tipo number
+    - 2 input do tipo button (um para o formulário e outro para a tabela)
+    - 1 tabela (table, thead, tbody, th, tr, td)
+
+4º Crie um sistema para cadastrar nomes, filtrar e listar.
+Os seguintes elementos HTML são obrigatórios:
+    - 1 form
+    - 2 inputs do tipo text
+    - 1 input do tipo button
+    - 1 elemento de lista (ul)
+
+5º Crie um sistema para localizar o endereço, a partir de um CEP.
+Os seguintes elementos HTML são obrigatórios:
+    - 1 form
+    - 5 inputs do tipo text
+    - 1 input do tipo button
+
+6º Crie um site contendo três páginas, tema aleatório. Cada página será uma sessão.
+Os seguintes elementos HTML são obrigatórios:
+    - 1 main
+    - 3 elementos de links (a)
+    - 3 sections
+
+7º Criar um sistema, onde todos os estados e o Distrito Federal sejam exibidos em um select, ao selecionar uma opção, serão listadas todas as cidades em um select.
+Os seguintes elementos HTML são obrigatórios:
+    - 1 form
+    - 2 selects
+
+8º Criar um sistema, onde iremos exibir informações sobre diversos países. Deverá ter uma galeria, contendo 4 imagens.
+Os seguintes elementos HTML são obrigatórios:
+    - 1 form
+    - 1 select
+    - 5 img (um para a imagem grande e quatro para as miniaturas)
